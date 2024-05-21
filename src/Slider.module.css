@@ -1,0 +1,48 @@
+.container {
+    overflow: hidden;
+}
+
+.containerBig {
+    width: 100%;
+    height: calc(100% - 40px);
+    display: flex;
+}
+
+.containerNavbar {
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.containerNavbarButton:hover {
+    cursor: pointer;
+    scale: 1.3;
+}
+
+.containerNavbarButtonDisabled {
+    opacity: 0.5;
+}
+
+.containerNavbarDots {
+    display: flex;
+    gap: 5px;
+}
+
+.containerNavbarDotsDot {
+    cursor: pointer;
+    height: 5px;
+    width: 5px;
+    background-color: black;
+    border-radius: 50%;
+}
+
+.containerNavbarDotsDotCurrent {
+    cursor: pointer;
+    height: 5px;
+    width: 5px;
+    background-color: black;
+    border-radius: 50%;
+    opacity: 0.5;
+}

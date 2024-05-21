@@ -1,0 +1,40 @@
+{
+    "name": "react-slider-gv",
+    "author": "Gastón Valentini",
+    "license": "MIT",
+    "version": "1.0.0",
+    "type": "module",
+    "main": "dist/slider.umd.js",
+    "module": "dist/slider.es.js",
+    "keywords": [
+        "react",
+        "carousel",
+        "slideshow",
+        "gallery",
+        "component",
+        "UI"
+    ],
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+        "preview": "vite preview"
+    },
+    "peerDependencies": {
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0"
+    },
+    "devDependencies": {
+        "@types/react": "^18.0.28",
+        "@types/react-dom": "^18.0.11",
+        "@vitejs/plugin-react": "^4.0.0",
+        "eslint": "^8.38.0",
+        "eslint-plugin-react": "^7.32.2",
+        "eslint-plugin-react-hooks": "^4.6.0",
+        "eslint-plugin-react-refresh": "^0.3.4",
+        "vite": "^4.3.2"
+    },
+    "dependencies": {
+        "react-icons": "^5.2.1"
+    }
+}
